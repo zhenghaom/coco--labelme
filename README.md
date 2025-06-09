@@ -1,6 +1,6 @@
-#脚本功能：
+###脚本功能：
 	该脚本的主要功能是将 COCO 数据集中的需要的类别数据转换为 LabelMe 格式的 JSON 文件，将图片和对应的 JSON 文件保存到指定目录。
-#脚本流程
+###脚本流程
 	设置路径：指定 COCO 数据集路径（dataDir）和保存生成文件的路径（saveDir），并创建用于保存图片的子目录（img_save_dir1 和 img_save_dir2）。
 	定义类别和颜色映射：列出需要处理的动物类别（classes_names）以及对应的 LabelMe 格式颜色映射（colors）。
 	检查图片：通过 check_image 函数检查每张图片是否满足以下条件之一：
